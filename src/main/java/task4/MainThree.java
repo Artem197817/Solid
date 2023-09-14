@@ -25,9 +25,9 @@ public class MainThree {
      * }
      */
     public static void main(String[] args) {
-        Square square = new Square(5);
-        Rectangle restangle = new Rectangle(7,6);
+        Shape square = new Square(5);
+        Shape rectangle = new Rectangle(7,6);
         System.out.println(square.area());
-        System.out.println(restangle.area());
+        System.out.println(rectangle.area());
     }
 }

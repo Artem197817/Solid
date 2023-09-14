@@ -1,21 +1,26 @@
 package task4;
 
-public class Rectangle extends Square {
-
+public class Rectangle implements Shape {
+    private int width;
     private int height;
+
     public Rectangle(int width, int height) {
-        super(width);
+        this.width = width;
         this.height = height;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
     }
 
     public void setHeight(int height) {
         this.height = height;
     }
+
     @Override
-    public int area (){
+    public int area() {
         return height * width;
     }
-   
-   
-   
+
+
 }
